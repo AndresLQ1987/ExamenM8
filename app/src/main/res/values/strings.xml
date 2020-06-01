@@ -9,6 +9,6 @@
 
     <string name="menu_home">Inicio</string>
     <string name="menu_list">Lista Detalle</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_registro">Registro</string>
     <string name="menu_header">Menu</string>
 </resources>

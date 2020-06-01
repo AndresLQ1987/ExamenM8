@@ -1,14 +1,14 @@
-package com.example.examenm8recu.ui.gallery;
+package com.example.examenm8recu.ui.registro;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
+public class RegistroViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public RegistroViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is gallery fragment");
     }

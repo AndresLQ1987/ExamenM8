@@ -1,27 +1,24 @@
-package com.example.examenm8recu.ui.gallery;
+package com.example.examenm8recu.ui.registro;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.example.examenm8recu.R;
 
-public class GalleryFragment extends Fragment {
+public class RegistroFragment extends Fragment {
 
-    private GalleryViewModel galleryViewModel;
+    private RegistroViewModel registroViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        galleryViewModel =
-                ViewModelProviders.of(this).get(GalleryViewModel.class);
+        registroViewModel =
+                ViewModelProviders.of(this).get(RegistroViewModel.class);
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
 
         return root;
