@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/nav_list"
-        android:name="com.example.examenm8recu.ui.slideshow.SlideshowFragment"
+        android:name="com.example.examenm8recu.ui.lista.ListFragment"
         android:label="@string/menu_list"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>
