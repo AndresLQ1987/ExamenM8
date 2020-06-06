@@ -1,4 +1,4 @@
-package com.example.examenm8recu.ui.registro;
+package com.example.examenm8recu.examen.Fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.example.examenm8recu.R;
+import com.example.examenm8recu.examen.ViewModels.RegistroViewModel;
 
 public class RegistroFragment extends Fragment {
 

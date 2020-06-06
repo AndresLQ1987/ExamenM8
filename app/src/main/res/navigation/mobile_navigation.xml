@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.examenm8recu.ui.home.HomeFragment"
+        android:name="com.example.examenm8recu.examen.Fragments.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_register"
-        android:name="com.example.examenm8recu.ui.registro.RegistroFragment"
+        android:name="com.example.examenm8recu.examen.Fragments.RegistroFragment"
         android:label="@string/menu_registro"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_list"
-        android:name="com.example.examenm8recu.ui.lista.ListFragment"
+        android:name="com.example.examenm8recu.examen.Fragments.ListFragment"
         android:label="@string/menu_list"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>
