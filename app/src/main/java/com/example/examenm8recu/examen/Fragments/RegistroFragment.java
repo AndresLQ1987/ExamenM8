@@ -20,7 +20,7 @@ public class RegistroFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         registroViewModel =
                 ViewModelProviders.of(this).get(RegistroViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
+        View root = inflater.inflate(R.layout.fragment_registro, container, false);
 
         return root;
     }

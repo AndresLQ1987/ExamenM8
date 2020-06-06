@@ -20,7 +20,7 @@ public class ListFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         listViewModel =
                 ViewModelProviders.of(this).get(ListViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_slideshow, container, false);
+        View root = inflater.inflate(R.layout.fragment_lista, container, false);
 
         return root;
     }

@@ -11,4 +11,9 @@
     <string name="menu_list">Lista Detalle</string>
     <string name="menu_registro">Registro</string>
     <string name="menu_header">Menu</string>
+    <string name="nombre">Nombre</string>
+    <string name="vacio" />
+    <string name="edad">Edad</string>
+    <string name="curso">Curso</string>
+    <string name="registrar">Registrar</string>
 </resources>
