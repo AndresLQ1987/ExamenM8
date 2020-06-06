@@ -1,4 +1,4 @@
-package com.example.examenm8recu.examen.Fragments;
+package com.example.examenm8recu.MVVM.Fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,17 +10,18 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.example.examenm8recu.R;
-import com.example.examenm8recu.examen.ViewModels.ListViewModel;
+import com.example.examenm8recu.MVVM.ViewModels.HomeViewModel;
 
-public class ListFragment extends Fragment {
+public class HomeFragment extends Fragment {
 
-    private ListViewModel listViewModel;
+    private HomeViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        listViewModel =
-                ViewModelProviders.of(this).get(ListViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_lista, container, false);
+        homeViewModel =
+                ViewModelProviders.of(this).get(HomeViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_home, container, false);
+
 
         return root;
     }

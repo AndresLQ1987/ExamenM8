@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1072694926209",
+    "firebase_url": "https://examenm8recu.firebaseio.com",
+    "project_id": "examenm8recu",
+    "storage_bucket": "examenm8recu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072694926209:android:c436801cb541e5dc23e680",
+        "android_client_info": {
+          "package_name": "com.example.examenm8recu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072694926209-k7dlcfbjtetjojlo9khrbdak1s92pad1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.examenm8recu",
+            "certificate_hash": "48e389b5b7469ba971103bfb1d3bcf6b21e05a50"
+          }
+        },
+        {
+          "client_id": "1072694926209-19e1d6h94fp9c9lgcj45ga55krjhruf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRJjp6VBFZ5k3nfX23hIFiarwH_1dXg1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072694926209-19e1d6h94fp9c9lgcj45ga55krjhruf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
