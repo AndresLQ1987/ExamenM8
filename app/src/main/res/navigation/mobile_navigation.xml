@@ -18,8 +18,8 @@
         tools:layout="@layout/fragment_registro" />
 
     <fragment
-        android:id="@+id/nav_list"
-        android:name="com.example.examenm8recu.MVVM.Fragments.ListFragment"
+        android:id="@+id/nav_listFirebase"
+        android:name="com.example.examenm8recu.MVVM.Fragments.ListFirebaseFragment"
         android:label="@string/menu_list"
-        tools:layout="@layout/fragment_lista" />
+        tools:layout="@layout/fragment_listafirebase" />
 </navigation>

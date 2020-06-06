@@ -12,7 +12,7 @@ import androidx.lifecycle.ViewModelProviders;
 import com.example.examenm8recu.R;
 import com.example.examenm8recu.MVVM.ViewModels.ListViewModel;
 
-public class ListFragment extends Fragment {
+public class ListFirebaseFragment extends Fragment {
 
     private ListViewModel listViewModel;
 
@@ -20,7 +20,7 @@ public class ListFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         listViewModel =
                 ViewModelProviders.of(this).get(ListViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_lista, container, false);
+        View root = inflater.inflate(R.layout.fragment_listafirebase, container, false);
 
         return root;
     }
