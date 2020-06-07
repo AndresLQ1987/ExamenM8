@@ -22,4 +22,9 @@
         android:name="com.example.examenm8recu.MVVM.Fragments.ListFirebaseFragment"
         android:label="@string/menu_list"
         tools:layout="@layout/fragment_listafirebase" />
+    <fragment
+        android:id="@+id/detalleFragment"
+        android:name="com.example.examenm8recu.MVVM.Fragments.DetalleFragment"
+        android:label="Detalle"
+        tools:layout="@layout/fragment_detalle_lista"/>
 </navigation>
