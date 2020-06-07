@@ -1,5 +1,8 @@
 package com.example.examenm8recu.MVVM.Models;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 public class Persona {
 
     private String id;
@@ -12,6 +15,17 @@ public class Persona {
         this.nombre = nombre;
         this.curso = curso;
         this.edad = edad;
+    }
+
+    public Persona(JSONObject jsonObject) {
+        try {
+            id = jsonObject.getString("id");
+            nombre = jsonObject.getString("nombre");
+            curso = jsonObject.getString("curso");
+            edad = jsonObject.getString("edad");
+        }catch (JSONException jsonException) {
+            jsonException.printStackTrace();
+        }
     }
 
     public String getId() {
